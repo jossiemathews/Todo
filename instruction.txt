@@ -1,0 +1,4 @@
+Commands:
+
+docker build -t cpp-gccc-env .
+docker run -it --rm -v .:/app cpp-gccc-env:latest

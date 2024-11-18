@@ -45,9 +45,15 @@ const std::string Todo::status_string = "Todo List";
 
 int main() {
     Todo todo;
-    todo.add_item("Buy Milk");
-    todo.add_item("Buy Eggs");
-    todo.add_item("Buy Bread");
-    todo.display();
+    // todo.add_item("Buy Milk");
+    // todo.add_item("Buy Eggs");
+    // todo.add_item("Buy Bread");
+    // todo.display();
+    int choice;
+    std::cout<<"Hello World"<<std::endl;
+    std::cin>>choice;
+    std::cout<<choice<<std::endl;
+    
+
     return 0;
 }

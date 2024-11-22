@@ -1,11 +1,11 @@
 #include <iostream>
-#include <vector>
 #include <string>
 
-int main() {
-    std::vector<std::string> names = {"Alice", "Bob", "Charlie"};
-    for (const std::string& name : names) {
-        std::cout << "Hello, " << name << std::endl;
-    }
+int main()
+{
+    std::string input;
+    std::cout << "Enter" << std::endl;
+    std::cin >> input;
+    std::cout << input << std::endl;
     return 0;
 }
